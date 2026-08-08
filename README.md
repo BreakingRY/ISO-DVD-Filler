@@ -30,17 +30,12 @@
 ## 文件说明
 
 
-ISO-DVD-Filler/
-
-│
-
-├── ISO-DVD-Filler.exe # Windows GUI 程序（由 iso_fill_gui.py 打包）
-
-├── README.md # 使用说明
-
-├── iso_fill.py # 命令行版本
-
-└── iso_fill_gui.py # Python GUI 版本
+ISO-DVD-Filler/ 
+│ 
+├── ISO-DVD-Filler.exe # Windows GUI 程序（由 iso_fill_gui.py 打包） 
+├── README.md # 使用说明 
+├── iso_fill.py # 命令行版本 
+└── iso_fill_gui.py # Python GUI 版本 
 
 
 
@@ -70,9 +65,19 @@ ISO-DVD-Filler.exe
 ---
 
 ### 方法二：命令行模式
-
-## 查看帮助
+#### 查看帮助
 
 ```bash
 python iso_fill.py -h
 ```
+#### 使用示例
+
+1. 填充为单层 DVD5（4.7G 标准）
+```bash
+python iso_fill.py -i source.iso -o filled_dvd5.iso -d dvd5
+```
+2. 填充为双层 DVD9（8.5G 标准）
+```bash
+python iso_fill.py -i source.iso -o filled_dvd9.iso -d dvd9
+```
+   
