@@ -76,6 +76,5 @@ ISO-DVD-Filler.exe
 ```bash
 python iso_fill.py -h
 
-输出：
 
-usage: iso_fill.py [-h] -i INPUT -o OUTPUT [-d {dvd5,dvd9}]
+1111
