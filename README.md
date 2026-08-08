@@ -32,10 +32,10 @@
 
 ISO-DVD-Filler/ 
 │ 
-├── ISO-DVD-Filler.exe # Windows GUI 程序（由 iso_fill_gui.py 打包） 
-├── README.md # 使用说明 
-├── iso_fill.py # 命令行版本 
-└── iso_fill_gui.py # Python GUI 版本 
+├── ISO-DVD-Filler.exe # Windows GUI 程序（由 iso_fill_gui.py 打包）  
+├── README.md # 使用说明  
+├── iso_fill.py # 命令行版本  
+└── iso_fill_gui.py # Python GUI 版本  
 
 
 
@@ -45,13 +45,13 @@ ISO-DVD-Filler/
 
 ### 方法一：GUI 图形界面
 
-运行：
+#### 运行：
 
 
 ISO-DVD-Filler.exe
 
 
-选择：
+#### 选择：
 
 1. 选择源ISO文件
 2. 设置输出 ISO 文件
