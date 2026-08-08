@@ -28,7 +28,7 @@
 
 
 ISO-DVD-Filler/  
-│ 
+│  
 ├── ISO-DVD-Filler.exe # Windows GUI 程序（由 iso_fill_gui.py 打包）  
 ├── README.md # 使用说明  
 ├── iso_fill.py # 命令行版本  
@@ -90,7 +90,11 @@ python iso_fill.py -i source.iso -o filled_dvd9.iso -d dvd9
 4. 填充后的 ISO 适合刻录到对应容量 DVD 光盘。
 
 
-## 开源说明
-ISO-DVD-Filler 仅用于 ISO 容量填充，不包含任何版权内容处理功能。
-用户应确保对所处理的 ISO 镜像拥有合法使用权限。
+## 开源许可与使用限制
+ISO-DVD-Filler 仅用于 ISO 容量填充，不包含任何版权内容处理功能。  
+用户应确保对所处理的 ISO 镜像拥有合法使用权限。  
+未经作者明确书面授权，禁止将本软件用于任何商业活动  
+如果您希望将 ISO-DVD-Filler 用于商业用途，请联系作者获取商业授权。  
 
+## ps:
+最近沉迷DIY光盘，发现刻录过的区域和没有刻录数据的区域颜色不一样，在光盘上会有很明显的颜色区分，对于追求作品质量的作者来说是万万不能接受的，查遍全网也没找到类似的项目（更可能是我没找到），所以只能自己动手了。暂时只写了DVD的，CD原理不太一样，后期会再更新一份。
